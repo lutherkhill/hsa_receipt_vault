@@ -13,15 +13,19 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-          Information you need during on-call emergencies
+          Simplify Your Health Savings: Securely Store and
+          Track Your HSA Receipts for Future Claims
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Quickly link new on-call tickets to similar past
-          incidents and their solutions. All directly in
-          Slack the moment an incident happens.
+          HSAReceiptVault allows you to securely store,
+          organize, and search your Health Savings Account
+          (HSA) receipts with ease. Powered by AI, the app
+          lets you quickly find and categorize your
+          documents, ensuring effortless tracking and
+          management for future medical claims.
         </Typography>
         <Link
-          href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
+          href="https://forms.gle/y83xXYceFJEhz9sX9"
           target="_blank"
         >
           <Button size="tiny" variant="ghost">
@@ -32,7 +36,7 @@ export default function Home() {
           width={1024}
           height={632}
           alt="Pandem.dev hero image"
-          src="/hero1.png"
+          src="/hsa_receipt_vault.png"
         />
       </div>
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
@@ -43,35 +47,39 @@ export default function Home() {
           <div className="flex md:flex-row flex-col gap-12">
             <Feature
               icon={<Timer size={24} />}
-              headline="Fix emergencies fast"
-              description="Save 20-30 minutes per on-call ticket - no more searching for relevant issues and runbooks"
+              headline="Securely Store and Organize Receipts"
+              description="Easily upload and categorize your HSA receipts for future medical expense claims."
             />
             <Feature
               icon={<ArrowUpDown size={24} />}
-              headline="Universally compatible"
-              description="Works with PagerDuty, Jira, or custom Slack alerts—Pandem integrates with any system"
+              headline="AI-Powered Search"
+              description="Quickly find specific receipts or expense categories using advanced AI search functionality."
             />
             <Feature
               icon={<Workflow size={24} />}
-              headline="Secure for your org"
-              description="We keep your data safe by taking top security measures."
+              headline="Track HSA Balances"
+              description="Monitor your HSA contributions and balance, helping you plan for future medical expenses during retirement."
             />
           </div>
         </div>
         <div className="flex flex-col gap-6 max-w-2xl items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Instant setup, no custom code
+            Effortlessly Manage Your HSA Receipts: Simple,
+            Fast, and Secure
           </Typography>
           <Typography className="max-w-2xl" variant="p">
-            Quickly link new on-call tickets to similar past
-            incidents and their solutions. All directly in
-            Slack the moment an incident happens.
+            HSA Receipt Vault streamlines the process of
+            managing your Health Savings Account receipts
+            with an intuitive, user-friendly interface.
+            Easily upload, organize, and search your
+            receipts, ensuring hassle-free tracking and
+            peace of mind for future claims.
           </Typography>
           <Image
             width={1024}
             height={632}
-            alt="Pandem.dev hero image"
-            src="/hero1.png"
+            alt="HSAReceiptVault.com hero image"
+            src="/hsa_receipt_vault.png"
           />
         </div>
         <div className="flex flex-col gap-6 items-center">
@@ -80,7 +88,7 @@ export default function Home() {
           </Typography>
           <div>Book a demo, or hop on a call</div>
           <Link
-            href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
+            href="https://forms.gle/y83xXYceFJEhz9sX9"
             target="_blank"
           >
             <Button size="tiny" variant="ghost">
